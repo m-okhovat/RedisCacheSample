@@ -4,4 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore" Version="5.0.2" />
+    <PackageReference Include="microsoft.entityframeworkcore.relational" Version="5.0.2" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="5.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="5.0.1" />
+  </ItemGroup>
+
 </Project>
